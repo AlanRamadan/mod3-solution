@@ -10,7 +10,7 @@ body{
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #000000;
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -34,7 +34,7 @@ body{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border:solid #61122f;
 }
-.navbar-header button.-toggle {
+.navbar-header button.toggle {
  size: 1em;
 }
 #header-nav{
