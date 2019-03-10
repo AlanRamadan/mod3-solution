@@ -1,3 +1,73 @@
+*{
+	box-sizing: border-box;
+}
 body{
+	border:2px solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  padding-top: 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list span{
+	font-size: 1.8em;
+}
+#nav-list{
+	background-color: #fff;
+}
+.container .navbar-collapse{
+	margin-bottom: -15px;
+}
+
+.nav li{
+	text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border:solid #61122f;
+}
+.navbar-header button.-toggle {
+ size: 1em;
+}
+#header-nav{
+background-color: #999999;
+margin-bottom: 15px;
+border: 1px  solid black;
+}
+ul:nth-child(1){
+	margin-top: 2px;
+}
+div>hr{
+	background-color: #000000;
+	font-weight: bold;
 	
 }
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* End of Header*/
+
+#main-content-header {  /* our minu */
+	font-weight: bold;	
+	margin-top: 5px;	
+}
+#content-div{
+	background-color: #999999;
+	overflow: hidden;
+	padding: 10px 24px 24px 24px;
+}
+#content-header{ /* Chicken */
+	font-weight: bold;
+	margin-top: 4px
+}
+
